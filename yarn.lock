@@ -962,6 +962,30 @@
   "resolved" "https://registry.npmjs.org/@csstools/normalize.css/-/normalize.css-10.1.0.tgz"
   "version" "10.1.0"
 
+"@datadog/browser-core@4.3.0":
+  "integrity" "sha512-NRd+nAJMQYlkEYENk/VH11L2SSrK+NNMTg2q09jPtGOtgdeP45DEaLj5ALtBkRTY9amjabuAm67Ep4wldr82CA=="
+  "resolved" "https://registry.npmjs.org/@datadog/browser-core/-/browser-core-4.3.0.tgz"
+  "version" "4.3.0"
+  dependencies:
+    "tslib" "^1.10.0"
+
+"@datadog/browser-rum-core@4.3.0":
+  "integrity" "sha512-RC64+99oCzVMsIGklsRdargBVmdY9eiI4h/wM0C9ezuxvJfO1d041HV6Jo94PnhmyAQtVfL0mn22l/x84T2RWw=="
+  "resolved" "https://registry.npmjs.org/@datadog/browser-rum-core/-/browser-rum-core-4.3.0.tgz"
+  "version" "4.3.0"
+  dependencies:
+    "@datadog/browser-core" "4.3.0"
+    "tslib" "^1.10.0"
+
+"@datadog/browser-rum@^4.3.0":
+  "integrity" "sha512-F1Bb94PHT2JmrUl9na8W1klEFjmjRHlTeGh3/uy2m6rxLIrjbYzN3QNZpu3x87P5ZoZXOY94SQgPwVaPa5lSDA=="
+  "resolved" "https://registry.npmjs.org/@datadog/browser-rum/-/browser-rum-4.3.0.tgz"
+  "version" "4.3.0"
+  dependencies:
+    "@datadog/browser-core" "4.3.0"
+    "@datadog/browser-rum-core" "4.3.0"
+    "tslib" "^1.10.0"
+
 "@hapi/address@2.x.x":
   "integrity" "sha512-QD1PhQk+s31P1ixsX0H0Suoupp3VMXzIVMSwobR3F3MSUO2YCV0B7xqLcUw/Bh8yuvd3LhpyqLQWTNcRmp6IdQ=="
   "resolved" "https://registry.npmjs.org/@hapi/address/-/address-2.1.4.tgz"
